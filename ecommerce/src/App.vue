@@ -2,13 +2,14 @@
 import Header from './components/Header.vue'
 import ProductList from './components/ProductList.vue'
 import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
 
 </script>
    
 <template> 
   <header>
  <Navbar/>
-    <div class="wrapper">
+    <div>
      <Header/>
     </div>
   </header>
@@ -16,6 +17,9 @@ import Navbar from './components/Navbar.vue'
   <main>
     <ProductList />
   </main>
+  <footer>
+    <Footer/>
+  </footer>
 </template>
 
 <style scoped>
