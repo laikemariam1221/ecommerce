@@ -16,6 +16,7 @@ import Footer from './components/Footer.vue'
 
   <main>
     <ProductList />
+     <ProductList />
   </main>
   <footer>
     <Footer/>
