@@ -2,6 +2,7 @@
 import Header from './components/Header.vue'
 import ProductList from './components/ProductList.vue'
 import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
 
 </script>
    
@@ -15,6 +16,8 @@ import Navbar from './components/Navbar.vue'
 
   <main>
     <ProductList />
+     <ProductList />
+     <Footer />
   </main>
 </template>
 
