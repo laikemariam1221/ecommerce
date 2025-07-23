@@ -1,19 +1,23 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Header from './components/Header.vue'
+import ProductList from './components/ProductList.vue'
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
+
 </script>
-
-<template>
+   
+<template> 
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
+ <Navbar/>
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+     <Header/>
     </div>
   </header>
 
   <main>
-    <TheWelcome />
+    <ProductList />
+     <ProductList />
+     <Footer />
   </main>
 </template>
 
